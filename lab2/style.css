@@ -1,0 +1,29 @@
+header {
+    font-size: 30px;
+}
+
+.logo-size {
+    width: 400px;
+    height: 200px;
+}
+
+.gap {
+    gap: 400px;
+}
+
+.self_center {
+    align-self: center;
+}
+
+.center_flex {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+html, body { height: 100%;}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
